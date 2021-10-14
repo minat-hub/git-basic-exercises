@@ -1,0 +1,95 @@
+    1  ls
+    2  ls /data
+    3  ls /
+    4  pwd
+    5  mkdir Learning_unix
+    6  ls
+    7  cd Learning_unix
+    8  cd /
+    9  cd home
+   10  cd ubuntu
+   11  cd /
+   12  cd ~
+   13  man ls
+   14  man cd
+   15  man man
+   16  cd Learn
+   17  ls
+   18  cd Learning_u
+   19  cd Learning_unix/
+   20  touch heaven.txt
+   21  touch earth.txt
+   22  ls
+   23  mkdir Temp
+   24  mv heaven.txt Temp/
+   25  mv earth.txt Temp/
+   26  ls
+   27  ls Temp/
+   28  mv *.txt Temp/
+   29  mv *.txt Temp/ 
+   30  touch rags~ls
+   31  ls
+   32  mv rags~ls Temp/riches
+   33  ls Temp/
+   34  mv Temp/riches Temp/rags
+   35  cd Temp
+   36  rm -i earth.txt heaven.txt rags
+   37  ls
+   38  echo $USER
+   39  echo $HOME
+   40  echo $PATH
+   41  cd /
+   42  cd ..
+   43  echo $PATH
+   44  cd ~
+   45  cd Learning_unix
+   46  echo $PATH
+   47  cd ..
+   48  mkdir git-basic-exercises
+   49  cd git-basic-exercises
+   50  ls -a
+   51  git init
+   52  ls -a
+   53  git status
+   54  touch README.md
+   55  ls -a
+   56  git status
+   57  git log
+   58  git add .
+   59  git status
+   60  git commit -m "initial commit"
+   61  git config --global user.email "minaomobonike@gmail.com"
+   62  git config --global user.name "minat-hub"
+   63  git commit -m "initial commit"
+   64  git log
+   65  q
+   66  nano README.md 
+   67  cat README.md 
+   68  git status
+   69  git commit -m "second commit"
+   70  git add .
+   71  git commit -m "second commit"
+   72  nano README.md 
+   73  git add .
+   74  git commit -m "third commit"
+   75  git log
+   76  git checkout ae39497629d14a583ccdc6fdc44948b5b9c8a473
+   77  cat README.md 
+   78  git checkout main
+   79  git checkout master
+   80  cat README.md 
+   81  git branch
+   82  git branch milkshake-flavours
+   83  git branch
+   84  git checkout milkshake-flavours
+   85  git branch
+   86  nano milkshakes.md
+   87  git status
+   88  git add .
+   89  git commit -m "added initial flavours"
+   90  git log
+   91  git checkout master
+   92  git branch history
+   93  git checkout history
+   94  git log
+   95  history > history.txt
